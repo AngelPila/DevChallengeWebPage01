@@ -1,6 +1,7 @@
 
 body {
   background-color: #121826;
+  background-image:url("resources/Background_image.svg");
  
 }
 h1 {
@@ -8,36 +9,69 @@ h1 {
     color: #E5E7EB;
     font-size: 40px;
     font-weight: 600;
+    margin-block: 3%;
     }
 h2{
     font-family: 'Outfit', sans-serif;
     color: #E5E7EB;
     font-size: 20px;
     font-weight: 600;
+    text-align:left;
+    margin-left: 7%;
+    margin-top: 5%;
 }
 h3 {
     font-family: 'Outfit', sans-serif;
     color: #9DA3AE;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 5%;
 
 }
 p {
     font-family: 'Outfit', sans-serif;
-    color: #DEE9FC;
+    color: #9DA3AE;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 7%;
+    margin-inline: 7%;
+    text-align: left;
+
 
 }
 
-.cuadro{
-    display: flex;
-    background-color: #212936;
-    flex-direction: row;      
-    justify-content: center;  
-    flex-wrap: nowrap;  
-    border-radius: 12px;
-    gap: 100px;
+.contenedor {
+  display: flex;        
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 46px;      
+}
 
+.cuadro {
+  background-color: #212936;
+  width: 350px;    
+  min-height: 440px;
+  border-radius: 5%;
+  padding: 1%;
+}
 
+.emoji-circle{
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7%;
+  margin-top: 7%;
+  font-size: 25px;
+  
+  
+}
+.cuadro-img {
+  max-width: 1200px;
+  max-width: 1200px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin: 5%;
 }
