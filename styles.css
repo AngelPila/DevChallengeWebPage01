@@ -9,24 +9,26 @@ h1 {
     color: #E5E7EB;
     font-size: 40px;
     font-weight: 600;
-    margin-block: 3%;
-    }
+    margin-top:3%;
+    margin-bottom: 1%;
+    text-align: center;
+    margin-inline: 10%;
+}
 h2{
     font-family: 'Outfit', sans-serif;
     color: #E5E7EB;
     font-size: 20px;
     font-weight: 600;
-    text-align:left;
+    text-align: left;
     margin-left: 7%;
-    margin-top: 5%;
+    margin-bottom: 5%;
 }
 h3 {
     font-family: 'Outfit', sans-serif;
     color: #9DA3AE;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 5%;
-
+    margin-bottom: 2%;
 }
 p {
     font-family: 'Outfit', sans-serif;
@@ -44,7 +46,8 @@ p {
   display: flex;        
   flex-wrap: wrap;
   justify-content: center; 
-  gap: 46px;      
+  column-gap: 46px;
+  margin-bottom: 5%;
 }
 
 .cuadro {
@@ -53,6 +56,7 @@ p {
   min-height: 440px;
   border-radius: 5%;
   padding: 1%;
+  margin-bottom: 5%;
 }
 
 .emoji-circle{
@@ -64,6 +68,7 @@ p {
   justify-content: center;
   margin-left: 7%;
   margin-top: 7%;
+  margin-bottom: 5%;
   font-size: 25px;
   
   
