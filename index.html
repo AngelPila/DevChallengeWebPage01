@@ -38,39 +38,69 @@
       .author-info a {
         text-decoration: none;
       }
+
+      .main-content {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+
+      .contenedor {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .cuadro {
+        background-color: #212936;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding:auto;
+        text-align: center;
+        width: 300px;
+      }
+
+
+      .cuadro-img {
+        border-radius: 8px;
+        margin-top: 10px;
+        max-width: 100%;
+      }
     </style>
   </head>
   <body>
-
-    <div class="author-info">
-      Coded by <a href="#">Angel Pilataxi</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >
-    <h1>Quality feedbacks for your SaaS products</h1>
-    <h3>The blocks & components you need</h3>
-    <div class="contenedor">
-      <div class="cuadro">
-        <div class = 'emoji-circle' style="background-color: #FCEED8;">✋</div>
-        <h2>Collect Feedback at Multiple Touchpoints</h2>
-        <p>Provide a comprehensive understanding of the customer experience.</p>
-        <img src="resources/photo_2.png" class="cuadro-img">
-      </div>
-      <div class="cuadro">
-        <div class = 'emoji-circle' style="background-color: #DEE9FC;">🥅</div>
-        <h2>Ask Targeted and Specific Questions</h2>
-        <p>Avoid vague or open-ended questions that may not yield actionable insights.</p>
-        <img src="resources/photo_1.png" class="cuadro-img">
-      </div>
-      <div class="cuadro">
-        <div class = 'emoji-circle' style="background-color: #FBE5E6;">💬</div>
-        <h2>Prioritize and Respond to Feedback</h2>
-        <p>Communicate the changes or improvements you've made in response to their feedback.</p>
-        <img src="resources/photo_3.png" class="cuadro-img">
+    <div class="main-content">
+      <h1>Quality feedbacks for your SaaS products</h1>
+      <h3 class="subtitle">The blocks & components you need</h3>
+      <div class="contenedor">
+        <div class="cuadro">
+          <div class='emoji-circle' style="background-color: #FCEED8;">✋</div>
+          <h2>Collect Feedback at Multiple Touchpoints</h2>
+          <p>Provide a comprehensive understanding of the customer experience.</p>
+          <img src="resources/photo_2.png" class="cuadro-img">
+        </div>
+        <div class="cuadro">
+          <div class='emoji-circle' style="background-color: #DEE9FC;">🥅</div>
+          <h2>Ask Targeted and Specific Questions</h2>
+          <p>Avoid vague or open-ended questions that may not yield actionable insights.</p>
+          <img src="resources/photo_1.png" class="cuadro-img">
+        </div>
+        <div class="cuadro">
+          <div class='emoji-circle' style="background-color: #FBE5E6;">💬</div>
+          <h2>Prioritize and Respond to Feedback</h2>
+          <p>Communicate the changes or improvements you've made in response to their feedback.</p>
+          <img src="resources/photo_3.png" class="cuadro-img">
+        </div>
       </div>
     </div>
-
-
+    <div class="author-info">
+      Coded by <a href="#">Angel Pilataxi</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>
     </div>
   </body>
 </html>
